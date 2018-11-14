@@ -7,7 +7,7 @@ trianglify {
   left:0;
   right:0;
   display: block;
-  z-index: 0;
+  z-index: -100;
 
   .animate-fade-long {
     &.ng-enter, &.ng-hide-remove {

@@ -69,7 +69,7 @@ module.exports = (Channel) => {
       request
         .get(`${config.serverUrl}/stat.xml`)
         .then((body) => {
-
+          console.log("In getStatsXML");
           parseString(
             body, 
             { explicitArray: false }, 
